@@ -1,0 +1,31 @@
+Multitud.
+  Una reinterpretación de la obra "Vagón de tercera clase" (1862-1864) de Honoré Daumier.
+  "Vagón de tercera clase" es una pintura del realismo en la que se presenta eso mismo,
+un vagón lleno de personas de dicho estrato social consecuencia de las revoluciones 
+industriales que se desarrollarían sobre esa época. En ella se puede ver un ambiente 
+austero, un poco triste, decaído que se proyecta claramente sobre los rostros y la 
+mirada perdida de los ocupantes. 
+  En las figuras principales se pueden ver dos mujeres, una amamantando un bebé, como 
+proyectando la esperanza de tener un mejor futuro, quizás no para ella, pero sí para su hijo. 
+En la derecha se ve otra mujer, con su mirada perdida en la lejanía, ignorando al mismo tiempo 
+al niño que duerme cansado a su izquierda, llegando de la escuela o de la fábrica. La pintura 
+se muestra llena del claroscuro, asemejándose a las pinturas de Goya o del tenebrismo, con lo 
+que encaja perfectamente con el contexto de la obra, de la miseria de la época, del descontento 
+y los pesares de esta gente que viaja sobre este producto de la industrialización, pero, ¿A 
+dónde los llevará?, ¿Qué será de esa gente al final?, ¿Cuándo se detendrá? 
+  En esta obra presentada trataremos de tomar algunos de estos aspectos y traducirlos 
+hacia una composición sonora y visual.
+  Usaremos un sonido sintetizado que vaya asemejando un tren que va avanzando de lento a 
+más rápido. Será controlado mediante un slider de volumen, que se usará en cada uno de los 
+sonidos usados. La velocidad del tren será controlada por un slider mediante OSC con una 
+aplicación en el celular. Otro recurso será un sampleo del tono de Shepard, que se estará 
+reproduciendo en bucle para poder lograr la ilusión auditiva; al igual que la señal anterior 
+mencionada, será controlada la velocidad de reproducción mediante OSC para alterar el tono. 
+Se usan también un sonido sintetizado que se reproducirá según un secuenciador de pasos. Junto 
+a los otros sonidos se utilizará también un oscilador de onda senoidal cuya frecuencia será 
+controlada derivada de una tabla que podrá ser modificada durante la obra. Por la parte del audio
+se procesará la representación visual de los primeros tres sonidos, asignados a rojo, verde y azul 
+de la manera tren – azul, tono de Shepard – verde, secuenciador – rojo. Además la última señal 
+controlará el offset del proceso pix_lumaoffset de GEM sobre la pintura.
+  
+Obra: https://youtu.be/fT-p4xJqO64
